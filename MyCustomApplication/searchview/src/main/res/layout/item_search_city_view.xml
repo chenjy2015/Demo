@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/filter_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical"
+        android:background="@drawable/search_bar_edit_selector"
+        android:drawableLeft="@mipmap/search_bar_icon_normal"
+        android:hint="请输入关键字"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:textSize="15.0dip"
+        android:visibility="visible" />
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ListView
+            android:id="@+id/country_lvcountry"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:divider="@color/grey"
+            android:dividerHeight="0.5dp"
+            android:scrollbars="none" />
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="60.0dip"
+            android:layout_height="60.0dip"
+            android:layout_gravity="center"
+            android:alpha="30"
+            android:background="@drawable/show_head_toast_background"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:textSize="30.0dip"
+            android:visibility="invisible"
+            tools:text="A" />
+
+        <com.example.searchview.address_search.widget.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="30.0dip"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right|center"
+            android:layout_marginLeft="5dp"
+            android:scrollbars="none" />
+    </FrameLayout>
+
+</LinearLayout>
