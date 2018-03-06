@@ -11,7 +11,9 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/base" />
             <option value="$PROJECT_DIR$/horizontal_display" />
+            <option value="$PROJECT_DIR$/pullrefreshlistview" />
             <option value="$PROJECT_DIR$/searchview" />
+            <option value="$PROJECT_DIR$/volley" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -9,11 +9,17 @@ public class Contants {
     //改变标题栏颜色
     public static final int CHANGE_TITLE_BAR_COLOR = 0;
 
+    //横向流量图片 放大和缩小
     public static final int HROIZONTAL_DISPLAY = 1;
 
+    //下拉刷新
+    public static final int REFRESH_LIST = 2;
 
-    /**测试网络图片地址*/
-    public final static String[] imageUrls = new String[] {
+
+    /**
+     * 测试网络图片地址
+     */
+    public final static String[] imageUrls = new String[]{
             "http://img4.duitang.com/uploads/blog/201311/04/20131104193715_NCexN.thumb.jpeg",
             "http://img5.duitang.com/uploads/item/201408/09/20140809210610_iTSJx.thumb.jpeg",
             "http://cdn.duitang.com/uploads/blog/201401/07/20140107223310_LH3Uy.thumb.jpeg",
@@ -133,6 +139,6 @@ public class Contants {
             "http://img4.duitang.com/uploads/item/201406/08/20140608020213_SBfGH.thumb.jpeg",
             "http://cdn.duitang.com/uploads/item/201406/08/20140608214105_kvVVY.thumb.jpeg",
             "http://img5.duitang.com/uploads/item/201406/03/20140603001556_XsMEv.thumb.jpeg",
-            "http://cdn.duitang.com/uploads/item/201406/08/20140608024120_XjjGB.thumb.jpeg", };
+            "http://cdn.duitang.com/uploads/item/201406/08/20140608024120_XjjGB.thumb.jpeg",};
 
 }

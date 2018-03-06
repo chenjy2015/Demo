@@ -2,8 +2,10 @@ package com.example.chenjiayou.mycustomapplication;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
+import android.support.annotation.RequiresApi;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -63,7 +65,7 @@ public class MainActivity extends BaseCompatActivity {
         final LinearLayout parentView = (LinearLayout) this.findViewById(R.id.parent_view);
         mSearchCityView = new SearchCityView(this, parentView);
         //Java8 过滤数据源
-        List<String> sources = Arrays.asList("颜色值测试", "", "横向流量大图放大缩小处理");
+        List<String> sources = Arrays.asList("颜色值测试", "", "横向流量大图放大缩小处理", "测试下拉刷新");
         List<String> data = sources.stream().filter(b -> !StringUtils.isNullOrEmpty(b)).collect(Collectors.<String>toList());
         String[] list = new String[data.size()];
         for (int i = 0; i < data.size(); i++) {
@@ -110,6 +112,10 @@ public class MainActivity extends BaseCompatActivity {
                     intent.putExtra("beans", data);
                     intent.putExtra("index", 0);
                     startActivity(intent);
+                    break;
+
+                case Contants.REFRESH_LIST:
+                    startActivity(new Intent(MainActivity.this, PullAndRefreshListActivity.class));
                     break;
 
             }

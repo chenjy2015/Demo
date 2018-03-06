@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f9f9fb">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/ptr_classic_header_rotate_view_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:lines="1"
+            android:text="正在刷新"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+
+
+        <ImageView
+            android:id="@+id/ptr_classic_header_refresh_result_flag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/ptr_classic_header_rotate_view_header_title"
+            android:paddingLeft="5dp"
+            android:src="@mipmap/icon_header_refresh_success" />
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/ptr_classic_header_refresh_result_flag"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ptr_classic_header_rotate_view"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/ptr_rotate_down_arrow" />
+
+            <ImageView
+                android:id="@+id/header_progressbar"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:visibility="invisible" />
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

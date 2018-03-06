@@ -1,15 +1,26 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+//    compileSdkVersion 26
+//    defaultConfig {
+//        applicationId "com.example.chenjiayou.mycustomapplication"
+//        minSdkVersion 24
+//        targetSdkVersion 26
+//        versionCode 1
+//        versionName "1.0"
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//    }
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
     defaultConfig {
         applicationId "com.example.chenjiayou.mycustomapplication"
-        minSdkVersion 24
-        targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -48,4 +59,6 @@ dependencies {
     implementation project(':base')
     implementation project(':searchview')
     implementation project(':horizontal_display')
+    implementation project(':pullrefreshlistview')
+    implementation project(':volley')
 }

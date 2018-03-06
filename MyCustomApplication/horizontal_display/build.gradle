@@ -1,18 +1,23 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 26
+//    compileSdkVersion 26
+//    defaultConfig {
+//        minSdkVersion 24
+//        targetSdkVersion 26
+//        versionCode 1
+//        versionName "1.0"
+//
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+//
+//    }
 
-
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        minSdkVersion 24
-        targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
-
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
     }
 
     buildTypes {
@@ -26,22 +31,6 @@ android {
         targetCompatibility 1.8
         sourceCompatibility 1.8
     }
-
-//    allprojects {
-//        gradle.projectsEvaluated {
-//            tasks.withType(JavaCompile) {
-//                options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
-//            }
-//        }
-//    }
-//
-//    lintOptions {
-//        checkReleaseBuilds false // false
-//        // Or, if you prefer, you can continue to check for errors in release builds,
-//        // but continue the build even when errors are found:
-//        abortOnError false
-//    }
-
 }
 
 dependencies {
