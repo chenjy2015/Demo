@@ -10,19 +10,21 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 
 import com.example.base.LogOut;
+import com.example.base.config.Contants;
 import com.example.base.ui.BaseCompatActivity;
 import com.example.base.utils.ClickUtils;
+import com.example.base.utils.GsonUtils;
 import com.example.base.utils.StatusBarUtils;
 import com.example.base.utils.StringUtils;
-import com.example.chenjiayou.mycustomapplication.config.Contants;
+import com.example.horizontal_display.HorizontalDisplayPhotoListActivity;
+import com.example.horizontal_display.bean.PhotoBeanVO;
 import com.example.searchview.address_search.bean.SearchDataType;
 import com.example.searchview.address_search.bean.SortModel;
-import com.example.searchview.address_search.interfaces.OnClickListener;
 import com.example.searchview.address_search.interfaces.OnItemClickListener;
 import com.example.searchview.address_search.widget.SearchCityView;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -61,10 +63,10 @@ public class MainActivity extends BaseCompatActivity {
         final LinearLayout parentView = (LinearLayout) this.findViewById(R.id.parent_view);
         mSearchCityView = new SearchCityView(this, parentView);
         //Java8 过滤数据源
-        List<String> sources = Arrays.asList("颜色值测试", "", "其他测试");
+        List<String> sources = Arrays.asList("颜色值测试", "", "横向流量大图放大缩小处理");
         List<String> data = sources.stream().filter(b -> !StringUtils.isNullOrEmpty(b)).collect(Collectors.<String>toList());
         String[] list = new String[data.size()];
-        for (int i=0; i<data.size(); i++){
+        for (int i = 0; i < data.size(); i++) {
             list[i] = data.get(i);
         }
         //传入数据源
@@ -98,6 +100,18 @@ public class MainActivity extends BaseCompatActivity {
                     }
                     showTopToast("请输入正确的三原色值");
                     break;
+
+                case Contants.HROIZONTAL_DISPLAY:
+                    String[] data = new String[9];
+                    for (int i = 0; i < 9; i++) {
+                        data[i] = Contants.imageUrls[i];
+                    }
+                    Intent intent = new Intent(MainActivity.this, HorizontalDisplayPhotoListActivity.class);
+                    intent.putExtra("beans", data);
+                    intent.putExtra("index", 0);
+                    startActivity(intent);
+                    break;
+
             }
         }
     }

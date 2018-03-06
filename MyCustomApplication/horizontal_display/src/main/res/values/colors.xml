@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 纯黑色 -->
+    <color name="black_pure">#000000</color>
+    <!-- 纯白色 -->
+    <color name="white">#ffffffff</color>
+</resources>

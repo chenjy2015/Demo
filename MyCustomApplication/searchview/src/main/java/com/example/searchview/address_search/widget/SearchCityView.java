@@ -13,7 +13,6 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 
-import com.example.base.utils.AndroidSystemHelper;
 import com.example.searchview.R;
 import com.example.searchview.address_search.adapter.HotListAdapter;
 import com.example.searchview.address_search.adapter.SortAdapter;
@@ -22,6 +21,7 @@ import com.example.searchview.address_search.bean.SortModel;
 import com.example.searchview.address_search.config.CharacterParser;
 import com.example.searchview.address_search.interfaces.OnClickListener;
 import com.example.searchview.address_search.interfaces.OnItemClickListener;
+import com.example.searchview.address_search.utils.AndroidSystemHelper;
 import com.example.searchview.address_search.utils.PinyinComparator;
 import com.example.searchview.address_search.utils.SizeUtils;
 

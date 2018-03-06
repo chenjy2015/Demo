@@ -17,7 +17,7 @@ import java.lang.reflect.Method;
 /**
  * Created by Administrator on 2017/10/25.
  */
-
+@SuppressWarnings("unchecked")
 public class StatusBarUtils {
 
     /**

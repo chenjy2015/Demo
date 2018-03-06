@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ParallaxViewPager -->
+    <declare-styleable name="ParallaxViewPager">
+        <attr name="mode">
+            <enum name="left_overlay" value="0" />
+            <enum name="right_overlay" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="outset" format="fraction|dimension" />
+        <attr name="interpolator" format="reference" />
+        <attr name="shadow_width" format="dimension" />
+        <attr name="left_shadow" format="reference" />
+        <attr name="right_shadow" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="RippleView">
+        <attr name="rv_alpha" format="integer" />
+        <attr name="rv_framerate" format="integer" />
+        <attr name="rv_rippleDuration" format="integer" />
+        <attr name="rv_zoomDuration" format="integer" />
+        <attr name="rv_color" format="color" />
+        <attr name="rv_centered" format="boolean" />
+        <attr name="rv_type" format="enum">
+            <enum name="simpleRipple" value="0" />
+            <enum name="doubleRipple" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="rv_ripplePadding" format="dimension" />
+        <attr name="rv_zoom" format="boolean" />
+        <attr name="rv_zoomScale" format="float" />
+
+    </declare-styleable>
+
+</resources>

@@ -1,1 +1,1 @@
-include ':app', ':base', ':searchview'
+include ':app', ':base', ':searchview', ':horizontal_display'

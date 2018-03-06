@@ -22,6 +22,7 @@ import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
 import java.util.zip.GZIPOutputStream;
 
+
 public class StringUtils {
 
     private static final String TAG = "StringUtils";
@@ -1071,7 +1072,7 @@ public class StringUtils {
      * @return
      */
     public static ArrayList getNumber2(String content) {
-        ArrayList list = new ArrayList();
+        ArrayList<String> list = new ArrayList<String>();
         Pattern p = Pattern.compile("\\d{3}-\\d{8}|\\d{4}-\\d{7}|\\d{11}");
         Matcher matcher = p.matcher(content);
         while (matcher.find()) {

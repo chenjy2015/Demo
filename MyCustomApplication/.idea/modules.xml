@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyCustomApplication.iml" filepath="$PROJECT_DIR$/MyCustomApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/horizontal_display/horizontal_display.iml" filepath="$PROJECT_DIR$/horizontal_display/horizontal_display.iml" />
       <module fileurl="file://$PROJECT_DIR$/searchview/searchview.iml" filepath="$PROJECT_DIR$/searchview/searchview.iml" />
     </modules>
   </component>

@@ -1,6 +1,9 @@
 package com.example.base.utils;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Build;
 import android.text.TextPaint;
 import android.text.TextUtils;
@@ -13,7 +16,6 @@ import android.widget.Toast;
 
 import com.example.base.R;
 
-
 public class ToastUtils {
 
 
@@ -25,6 +27,7 @@ public class ToastUtils {
      * @param context
      * @param content
      */
+    @SuppressLint("ResourceAsColor")
     public static void showBlackWhiteToastOnCenter(Context context, String content) {
         if (mToast == null) {
             mToast = new Toast(context);
@@ -53,7 +56,7 @@ public class ToastUtils {
         TextPaint tp = tv.getPaint();
         tp.setFakeBoldText(false);
         tv.setText(content);
-        tv.setTextColor(context.getResources().getColor(R.color.white));
+        tv.setTextColor(Color.parseColor("#ffffff"));
 //        tv.setTextSize(20.0f);
         tv.setGravity(Gravity.CENTER);
         mToast.setView(view);

@@ -4,9 +4,9 @@ import android.app.Activity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.base.adapter.MyBaseAdapter;
 import com.example.searchview.R;
 import com.example.searchview.address_search.bean.SortModel;
 
@@ -20,10 +20,29 @@ import java.util.List;
  * @createDate 2017/11/22 14:51
  * @updateAuthor
  */
-public class HotListAdapter extends MyBaseAdapter<SortModel> {
+public class HotListAdapter extends BaseAdapter {
+
+    protected List<SortModel> mList;
+    protected Activity mAct;
 
     public HotListAdapter(Activity act, List<SortModel> list) {
-        super(act, list);
+       this.mAct = act;
+       this.mList = list;
+    }
+
+    @Override
+    public int getCount() {
+        return mList.size();
+    }
+
+    @Override
+    public Object getItem(int i) {
+        return mList.get(i);
+    }
+
+    @Override
+    public long getItemId(int i) {
+        return i;
     }
 
     @Override

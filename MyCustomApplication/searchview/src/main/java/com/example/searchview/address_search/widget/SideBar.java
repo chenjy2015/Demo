@@ -12,9 +12,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.base.utils.AndroidSystemHelper;
-import com.example.base.utils.SizeUtils;
 import com.example.searchview.R;
+import com.example.searchview.address_search.utils.SizeUtils;
 
 
 public class SideBar extends View {
@@ -86,7 +85,7 @@ public class SideBar extends View {
 
 		switch (action) {
 			case MotionEvent.ACTION_UP:
-				setBackgroundDrawable(new ColorDrawable(0x00000000));
+				setBackground(new ColorDrawable(0x00000000));
 				choose = -1;//
 				invalidate();
 				if (mTextDialog != null) {
