@@ -15,6 +15,27 @@ public class Contants {
     //下拉刷新
     public static final int REFRESH_LIST = 2;
 
+    //单选对话框
+    public static final int DIALOG_SINGLE = 3;
+
+    //多选对话框
+    public static final int DIALOG_MULIT = 4;
+
+    //单个按钮提示框
+    public static final int DIALOG_HINT = 5;
+
+    //两个按钮提示框
+    public static final int DIALOG_NORMAL = 6;
+
+    //带输入框dialog
+    public static final int DIALOG_INPUT = 7;
+
+    //进度提示框
+    public static final int DIALOG_PROGRESS = 8;
+
+    //带进度条的提示框
+    public static final int DIALOG_PROGRESSBAR = 9;
+
 
     /**
      * 测试网络图片地址

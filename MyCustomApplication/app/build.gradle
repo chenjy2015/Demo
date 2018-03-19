@@ -61,4 +61,5 @@ dependencies {
     implementation project(':horizontal_display')
     implementation project(':pullrefreshlistview')
     implementation project(':volley')
+    implementation project(':niftydialogbuilder')
 }

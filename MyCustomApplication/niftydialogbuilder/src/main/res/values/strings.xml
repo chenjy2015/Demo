@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NiftyDialogBuilder</string>
+    <string name="reminder">温馨提示</string>
+    <string name="callphone_message">您确定要拨打该号码吗?</string>
+    <string name="callphone_btn_no">取消</string>
+    <string name="callphone_btn_ok">确认拨打</string>
+    <string name="permission_call_faile">拨号权限被拒绝，拨打电话失败</string>
+</resources>

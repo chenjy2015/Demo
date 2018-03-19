@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_nifydialog">
+
+    <ListView
+        android:id="@+id/id_single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:divider="@color/lighgray"
+        android:dividerHeight="0.3dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/id_edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/blobdialog_item_edit_height"
+        android:layout_marginBottom="@dimen/blobdialog_item_edit_margin_bottom"
+        android:layout_marginLeft="@dimen/blobdialog_item_edit_margin_left"
+        android:layout_marginRight="@dimen/blobdialog_item_edit_margin_right"
+        android:layout_marginTop="@dimen/blobdialog_item_edit_margin_top"
+        android:background="@drawable/background_dialog_helper">
+
+        <EditText
+            android:id="@+id/id_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:maxLength="500"
+            android:padding="5dp"
+            android:scrollHorizontally="false"
+            android:singleLine="false"
+            android:textSize="14dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/id_progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <!-- <ImageView
+            android:id="@+id/id_progress_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:background="@anim/progress_frame" /> -->
+
+
+        <com.example.niftydialogbuilder.dialog.image.LoadingView
+            android:id="@+id/id_progress_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@anim/ani_loading"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/id_progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="" />
+
+
+        <ProgressBar
+            android:id="@+id/id_progressbar"
+            style="@style/StyleProgressBarMini"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:max="100"
+            android:progress="0" />
+
+    </LinearLayout>
+
+</RelativeLayout>

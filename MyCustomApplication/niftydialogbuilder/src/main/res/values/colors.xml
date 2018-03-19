@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black_pure">#000000</color>
+    <color name="grey">#E8EAEA</color>
+    <color name="lighgray">#dddddd</color>
+    <color name="litte_gray">#e1e1e1</color>
+    <color name="title_layout_color">#4D317C</color>
+    <color name="translucent">#00000000</color>
+    <color name="txt_purple">#926dde</color>
+    <color name="btn_background_narmal_color">#ffffffff</color>
+    <color name="btn_background_pressed_color">#e1e1e1</color>
+    <color name="def_line_color">#d7d7d7</color>
+    <color name="title_layout_color_pressed">#590A86</color>
+    <color name="green_litter">#47bd89</color>
+    <!-- 紫色文本 -->
+    <color name="text_purple">#926dde</color>
+    <!-- 普通文本 -->
+    <color name="text_content">#333333</color>
+
+</resources>

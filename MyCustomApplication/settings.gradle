@@ -1,1 +1,1 @@
-include ':app', ':base', ':searchview', ':horizontal_display', ':volley', ':pullrefreshlistview'
+include ':app', ':base', ':searchview', ':horizontal_display', ':volley', ':pullrefreshlistview', ':niftydialogbuilder'

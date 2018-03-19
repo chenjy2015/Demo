@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- NiftyDialog -->
+    <dimen name="dialog_padding">50dp</dimen>
+    <dimen name="dialoghelper_item_minheight">60dp</dimen>
+    <dimen name="dialoghelper_item_layout_margin_left">10dp</dimen>
+    <dimen name="dialoghelper_item_layout_margin_right">10dp</dimen>
+    <!-- blobDialogHelper -->
+    <dimen name="blobdialog_item_edit_height">180dp</dimen>
+    <dimen name="blobdialog_item_edit_margin_left">15dp</dimen>
+    <dimen name="blobdialog_item_edit_margin_right">15dp</dimen>
+    <dimen name="blobdialog_item_edit_margin_top">10dp</dimen>
+    <dimen name="blobdialog_item_edit_margin_bottom">10dp</dimen>
+    <dimen name="font_size_normal">14dp</dimen>
+    <dimen name="middleFontSize">16dp</dimen>
+    <dimen name="bigFontSize">20dp</dimen>
+</resources>
