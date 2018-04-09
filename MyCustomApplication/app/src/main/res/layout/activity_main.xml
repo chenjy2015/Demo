@@ -28,12 +28,19 @@
             android:text="测试" />
     </LinearLayout>
 
+    <com.example.automatic_space_edittext.HPEditText
+        android:id="@+id/auto_edit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="输入号码 自动空格"
+        android:visibility="gone"
+        android:inputType="number" />
 
     <LinearLayout
-        android:orientation="vertical"
         android:id="@+id/parent_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     </LinearLayout>
 

@@ -36,6 +36,9 @@ public class Contants {
     //带进度条的提示框
     public static final int DIALOG_PROGRESSBAR = 9;
 
+    //输入若干位自动空格EditText
+    public static final int AUTO_MATIC_EDIT = 10;
+
 
     /**
      * 测试网络图片地址

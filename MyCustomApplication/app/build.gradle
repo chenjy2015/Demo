@@ -62,4 +62,5 @@ dependencies {
     implementation project(':pullrefreshlistview')
     implementation project(':volley')
     implementation project(':niftydialogbuilder')
+    implementation project(':automatic_space_edittext')
 }
