@@ -16,8 +16,8 @@ buildscript {
 }
 
 ext{
-    minSdkVersion=16  //最小sdk版本
-    targetSdkVersion=26 //目标sdk版本
+    minSdkVersion=19  //最小sdk版本
+    targetSdkVersion=27 //目标sdk版本
     compileSdkVersion=26 //编译sdk版本
     buildToolsVersion="26.0.2" //编译工具版本
     versionCode=1//版本号

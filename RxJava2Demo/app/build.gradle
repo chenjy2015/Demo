@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.example.chenjiayou.rxjava2demo"
-        minSdkVersion 24
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -16,6 +16,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    dataBinding.enabled = true
 }
 
 dependencies {
@@ -36,4 +38,7 @@ dependencies {
     implementation 'me.drakeet.multitype:multitype:3.4.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    // SuperTextView Item View
+    implementation 'com.github.lygttpod:SuperTextView:2.1.6'
+
 }

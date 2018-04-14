@@ -39,6 +39,8 @@ public class Contants {
     //输入若干位自动空格EditText
     public static final int AUTO_MATIC_EDIT = 10;
 
+    //自定义换行LinearLayout
+    public static final int AUTO_INSERT_LINEARLAYOUT = 11;
 
     /**
      * 测试网络图片地址

@@ -8,4 +8,46 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="item_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="sDividerLineType">none</item>
+
+        <item name="sTopDividerLineMarginLeft">53dp</item>
+        <item name="sDividerLineColor">@color/divider</item>
+        <item name="sDividerLineHeight">@dimen/divider_height</item>
+
+        <item name="sLeftIconMarginLeft">15dp</item>
+
+        <item name="sLeftTextColor">@color/black_666</item>
+        <item name="sLeftTextSize">16sp</item>
+
+        <item name="sLeftViewMarginLeft">15dp</item>
+
+        <item name="sRightTextColor">@color/black_999</item>
+        <item name="sRightTextSize">14sp</item>
+
+        <item name="sRightIconRes">@drawable/icon_arrow</item>
+        <item name="sRightViewMarginRight">10dp</item>
+
+        <item name="sRightIconMarginRight">15dp</item>
+    </style>
+
+    <style name="item_normal_first" parent="item_normal">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="item_divider_top" parent="item_normal">
+        <item name="sDividerLineType">top</item>
+    </style>
+
+    <style name="item_divider_bottom" parent="item_normal">
+        <item name="sDividerLineType">bottom</item>
+    </style>
+
+    <style name="home_text">
+        <item name="android:textSize">@dimen/base_text_size_13</item>
+        <item name="android:textColor">@color/black_666</item>
+    </style>
+
 </resources>

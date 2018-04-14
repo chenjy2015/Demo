@@ -25,7 +25,8 @@
         <!-- <activity -->
         <!-- android:name="com.example.horizontal_display.HorizontalDisplayPhotoListActivity" -->
         <!-- android:screenOrientation="portrait" /> -->
-        <activity android:name=".PullAndRefreshListActivity"></activity>
+        <activity android:name=".PullAndRefreshListActivity" />
+        <activity android:name=".RecyclerViewGridActivity"></activity>
     </application>
 
 </manifest>

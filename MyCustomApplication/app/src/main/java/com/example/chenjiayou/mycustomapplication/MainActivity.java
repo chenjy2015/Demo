@@ -73,7 +73,7 @@ public class MainActivity extends BaseCompatActivity {
         //Java8 过滤数据源
         List<String> sources = Arrays.asList(
                 "颜色值测试", "", "横向流量大图放大缩小处理", "测试下拉刷新"
-                , "单选", "多选", "单个按钮提示", "两个按钮提示", "输入框", "加载提示框", "带进度条的提示框", "自动空格edittext"
+                , "单选", "多选", "单个按钮提示", "两个按钮提示", "输入框", "加载提示框", "带进度条的提示框", "自动空格edittext", "自定义换行LinearLayout"
         );
         List<String> data = null;
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
@@ -217,6 +217,10 @@ public class MainActivity extends BaseCompatActivity {
                     } else {
                         mHpEditText.setVisibility(View.GONE);
                     }
+                    break;
+
+                case Contants.AUTO_INSERT_LINEARLAYOUT:
+                        startActivity(new Intent(MainActivity.this, RecyclerViewGridActivity.class));
                     break;
             }
         }

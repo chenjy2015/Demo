@@ -3,4 +3,135 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+
+    <color name="transparent">#00000000</color>
+
+    <color name="white">#fff</color>
+    <color name="white_alpha_60">#66ffffff</color>
+    <color name="white_alpha_20">#33ffffff</color>
+    <color name="white_alpha_50">#80ffffff</color>
+    <color name="white_F1F1F1">#F1F1F1</color>
+
+    <color name="window_background">#F1F1F5</color>
+
+    <color name="purple_0">#4d317c</color>
+    <color name="verification">#C4ADDA</color>
+    <color name="purple_0_5">#68408F</color>
+    <color name="purple_1">#c8aadc</color>
+    <color name="purple_2">#e3e1ea</color>
+    <color name="purple_26403672">#26403672</color>
+    <color name="purple_2C194B">#2C194B</color>
+    <color name="purple_A78FB7">#A78FB7</color>
+    <color name="purple_c8aadc">#c8aadc</color>
+
+    <color name="black_333">#333333</color>
+    <color name="black_666">#666666</color>
+    <color name="black_888">#888888</color>
+    <color name="black_999">#999999</color>
+    <color name="black_aaa">#aaaaaa</color>
+    <color name="black_bbb">#bbb</color>
+    <color name="black_ccc">#ccc</color>
+    <color name="black_ddd">#dddddd</color>
+    <color name="black_d9">#55d9d9d9</color>
+    <color name="black_eee">#eee</color>
+    <color name="black_999_alpha_50">#80999999</color>
+    <color name="black_333_alpha_40">#66333333</color>
+    <color name="black_6666">#66666666</color>
+    <color name="black">#000</color>
+    <color name="black_alpha_10">#19000000</color>
+    <color name="black_alpha_15">#21000000</color>
+    <color name="black_alpha_20">#33000000</color>
+    <color name="black_alpha_35">#59000000</color>
+    <color name="black_alpha_50">#88000000</color>
+    <color name="black_alpha_70">#B3000000</color>
+
+
+    <color name="orange_FB793F">#FB793F</color>
+    <color name="orange_F5A723">#F5A723</color>
+    <color name="orange_f98f1c">#f98f1c</color>
+    <color name="divider">@color/black_alpha_10</color>
+    <color name="divider_two">@color/litte_gray</color>
+    <color name="grey_F7F7F7">#F7F7F7</color>
+    <color name="selected_day_text">#ff666666</color>
+    <color name="title_blue2">#735BED</color>
+    <color name="blue">#0096FF</color>
+
+
+    <color name="purple_3C2450">#3C2450</color>
+    <color name="purple_4D317C">#4D317C</color>
+    <color name="purple_482E72">#482E72</color>
+    <color name="purple_6E5A9C">#6E5A9C</color>
+    <color name="purple_442970">#442970</color>
+    <color name="purple_403672">#403672</color>
+    <color name="purple_C9A9DD">#C9A9DD</color>
+    <color name="purple_AC91BF">#AC91BF</color>
+    <color name="purple_C8A9DE">#C8A9DE</color>
+    <color name="purple_C8AACD">#C8AACD</color>
+    <color name="purple_C2539C">#C2539C</color>
+    <color name="purple_33C8AACD">#33C8AACD</color>
+    <color name="purple_590A86">#590A86</color>
+    <color name="purple_261636">#261636</color>
+
+    <color name="grey">#E8EAEA</color>
+    <color name="grey_cdcdcd">#CDCDCD</color>
+    <color name="grey_d9d9d9">#D9D9D9</color>
+    <color name="grey_eeeee">#eeeeee</color>
+    <color name="grey_F1F1F5">#F1F1F5</color>
+    <color name="grey_FDFAFF">#FDFAFF</color>
+    <color name="grey_DFDFDF">#DFDFDF</color>
+    <color name="grey_d9d7df">#d9d7df</color>
+    <color name="grey_F6F5F5">#F6F5F5</color>
+    <color name="grey_B5B1C8">#B5B1C8</color>
+
+    <color name="gray">#99a4b0</color>
+
+    <color name="blue_57c7d3">#57c7d3</color>
+
+    <color name="green_55a474">#55a474</color>
+    <color name="green_00C54D">#00C54D</color>
+    <color name="online_pay_sure">#00CB00</color>
+
+    <color name="line">#f3f3f3</color>
+
+    <color name="yellow_FFC96F">#FFC96F</color>
+    <color name="yellow_f2a652">#f2a652</color>
+    <color name="yellow_f5a623">#f5a623</color>
+    <color name="yellow_fffad2">#fffad2</color>
+    <color name="yellow_F5A726">#F5A726</color>
+    <color name="yellow_FFC973">#FFC973</color>
+    <color name="yellow_B5792A">#B5792A</color>
+    <color name="yellow_FFBF59">#FFBF59</color>
+    <color name="yellow_9F6A23">#9F6A23</color>
+
+    <color name="text_purple">#926dde</color>
+    <color name="red_ff6262">#ff6262</color>
+    <color name="red_ff7171">#ff7171</color>
+    <color name="red_B5514D">#B5514D</color>
+    <color name="red_FF6262">#FF6262</color>
+    <color name="red_E60038">#E60038</color>
+
+
+    <color name="setting_item_text_color">#666666</color>
+    <color name="edit_unit_text">#A5A5A5</color>
+    <color name="litte_gray">#e1e1e1</color>
+    <color name="line_router">#B5B1C8</color>
+    <color name="line_0">#979797</color>
+    <color name="line_1">#eeeeee</color>
+
+    <color name="frq_price_color">#F5A726</color>
+
+    <color name="mapview_popup_title_color">#4D317C</color>
+
+    <color name="president_online_red">#FF0000</color>
+
+    <color name="president_online_voice_text_color">#7c0fbb</color>
+    <color name="color_ddd">#dddddd</color>
+    <color name="president_online_radio_color">#590A86</color>
+
+    <color name="brown_573333">#573333</color>
+
+    <color name="customer_intro_bg_purple">#6807A0</color>
+
+    <color name="color_d7">#d7d7d7</color>
 </resources>
