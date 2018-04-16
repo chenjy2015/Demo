@@ -44,4 +44,57 @@
 
     </LinearLayout>
 
+    <!-- todo : Statuslayout使用自定义状态布局-->
+    <com.kye.lib.view.statuslayout.StatusLayout
+        android:id="@+id/statusLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/window_background"
+        android:visibility="visible"
+        >
+
+        <!-- 0 : content -->
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/refreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srlEnableAutoLoadmore="false"
+            app:srlEnableFooterFollowWhenLoadFinished="true"
+            app:srlEnableScrollContentWhenLoaded="true"
+            android:background="@color/window_background"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvComments"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overScrollMode="never"
+                android:background="@color/window_background"
+                />
+
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+        <!-- 1 : loading -->
+        <include
+            android:id="@+id/llLoadingCustom"
+            layout="@layout/layout_status_loading_default"
+            />
+        <!-- 2 : empty -->
+        <include
+            android:id="@+id/llEmpty"
+            layout="@layout/layout_status_empty_default"
+            />
+        <!-- 3 : error net -->
+        <include
+            android:id="@+id/llErrorNet"
+            layout="@layout/layout_status_error_network_default"
+            />
+        <!-- 4 : error server -->
+        <include
+            android:id="@+id/llErrorServer"
+            layout="@layout/layout_status_error_server_default"
+            />
+
+    </com.kye.lib.view.statuslayout.StatusLayout>
+
 </LinearLayout>

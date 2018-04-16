@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">webview</string>
+    <string name="clean_cache">清除缓存</string>
+    <string name="rationale_for_storage_permission">缓存功能需要用到手机存储权限，点击下一步将继续请求权限</string>
+    <string name="next_step">下一步</string>
+    <string name="cancel">取消</string>
+</resources>

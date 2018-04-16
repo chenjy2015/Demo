@@ -1,0 +1,26 @@
+<resources>
+
+    <style name="StatusLayout">
+    </style>
+
+    <style name="StatusLayout.Default">
+
+        <item name="statusLayoutLoadingResLayout">@layout/layout_status_loading</item>
+        <item name="statusLayoutEmptyResLayout">@layout/layout_status_empty</item>
+        <item name="statusLayoutNetworkResLayout">@layout/layout_status_error_network</item>
+        <item name="statusLayoutServerResLayout">@layout/layout_status_error_server</item>
+        <item name="statusLayoutCustomResLayout">@layout/layout_status_custom</item>
+
+        <!--<item name="statusLayoutLoadingViewId">@id/status_layout_loading_container_id</item>-->
+        <!--<item name="statusLayoutEmptyViewId">@id/status_layout_empty_container_id</item>-->
+        <!--<item name="statusLayoutNetworkViewId">@id/status_layout_network_container_id</item>-->
+        <!--<item name="statusLayoutServerViewId">@id/status_layout_server_container_id</item>-->
+
+        <!--<item name="statusLayoutLoadingTextId">@id/status_layout_loading_text_id</item>-->
+        <!--<item name="statusLayoutEmptyTextId">@id/status_layout_empty_text_id</item>-->
+        <!--<item name="statusLayoutNetworkTextId">@id/status_layout_network_text_id</item>-->
+        <!--<item name="statusLayoutServerTextId">@id/status_layout_server_text_id</item>-->
+
+    </style>
+
+</resources>

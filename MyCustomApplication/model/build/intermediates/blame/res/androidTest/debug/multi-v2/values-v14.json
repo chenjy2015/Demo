@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/model/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "/Users/chenjiayou/.gradle/caches/transforms-1/files-1.1/blockcanary-android-1.5.0.aar/a24bc9baaec2b3258b982c10a0bc1cb9/res/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "12",
+                        "endOffsets": "140"
+                    }
+                }
+            ]
+        }
+    ]
+}

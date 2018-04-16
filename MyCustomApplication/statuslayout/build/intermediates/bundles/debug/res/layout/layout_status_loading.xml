@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/status_layout_loading_container_id"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+    <ProgressBar
+        android:id="@+id/pbStatusLoading"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/kye_loading_anim" />
+
+    <TextView
+        android:id="@+id/status_layout_loading_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pb_loading"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:text="加载中..."
+        />
+
+</LinearLayout>

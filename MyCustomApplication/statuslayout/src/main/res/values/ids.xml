@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 布局layout id -->
+    <item name="status_layout_loading_res_layout" type="layout" />
+    <item name="status_layout_empty_res_layout" type="layout" />
+    <item name="status_layout_network_res_layout" type="layout" />
+    <item name="status_layout_server_res_layout" type="layout" />
+    <item name="status_layout_custom_res_layout" type="layout" />
+     <!--布局根view id 默认监听回调id-->
+    <item name="status_layout_loading_container_id" type="id" />
+    <item name="status_layout_empty_container_id" type="id" />
+    <item name="status_layout_network_container_id" type="id" />
+    <item name="status_layout_server_container_id" type="id" />
+    <item name="status_layout_custom_container_id" type="id" />
+    <!-- 各个状态text id -->
+    <item name="status_layout_loading_text_id" type="id" />
+    <item name="status_layout_empty_text_id" type="id" />
+    <item name="status_layout_network_text_id" type="id" />
+    <item name="status_layout_server_text_id" type="id" />
+
+</resources>

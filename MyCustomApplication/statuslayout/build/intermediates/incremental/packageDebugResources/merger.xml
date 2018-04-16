@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res"/><source path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/build/generated/res/rs/debug"/><source path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/build/generated/res/resValues/debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res"><file name="empty" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/drawable/empty.png" qualifiers="" type="drawable"/><file name="kye_loading_anim" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/drawable/kye_loading_anim.xml" qualifiers="" type="drawable"/><file name="error" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/drawable/error.png" qualifiers="" type="drawable"/><file name="layout_status_error_network" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/layout/layout_status_error_network.xml" qualifiers="" type="layout"/><file name="layout_status_custom" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/layout/layout_status_custom.xml" qualifiers="" type="layout"/><file name="layout_status_error_server" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/layout/layout_status_error_server.xml" qualifiers="" type="layout"/><file name="layout_status_empty" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/layout/layout_status_empty.xml" qualifiers="" type="layout"/><file name="layout_status_loading" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/layout/layout_status_loading.xml" qualifiers="" type="layout"/><file path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/values/styles.xml" qualifiers=""><style name="StatusLayout">
+    </style><style name="StatusLayout.Default">
+
+        <item name="statusLayoutLoadingResLayout">@layout/layout_status_loading</item>
+        <item name="statusLayoutEmptyResLayout">@layout/layout_status_empty</item>
+        <item name="statusLayoutNetworkResLayout">@layout/layout_status_error_network</item>
+        <item name="statusLayoutServerResLayout">@layout/layout_status_error_server</item>
+        <item name="statusLayoutCustomResLayout">@layout/layout_status_custom</item>
+
+        
+        
+        
+        
+
+        
+        
+        
+        
+
+    </style></file><file path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">StatusLayout</string></file><file path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="StatusLayout">
+
+        <attr format="reference" name="statusLayoutLoadingResLayout"/>
+        <attr format="reference" name="statusLayoutEmptyResLayout"/>
+        <attr format="reference" name="statusLayoutNetworkResLayout"/>
+        <attr format="reference" name="statusLayoutServerResLayout"/>
+        <attr format="reference" name="statusLayoutCustomResLayout"/>
+
+        
+        
+        
+        
+
+        
+        
+        
+        
+
+    </declare-styleable></file><file path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/values/ids.xml" qualifiers=""><item name="status_layout_loading_res_layout" type="layout"/><item name="status_layout_empty_res_layout" type="layout"/><item name="status_layout_network_res_layout" type="layout"/><item name="status_layout_server_res_layout" type="layout"/><item name="status_layout_custom_res_layout" type="layout"/><item name="status_layout_loading_container_id" type="id"/><item name="status_layout_empty_container_id" type="id"/><item name="status_layout_network_container_id" type="id"/><item name="status_layout_server_container_id" type="id"/><item name="status_layout_custom_container_id" type="id"/><item name="status_layout_loading_text_id" type="id"/><item name="status_layout_empty_text_id" type="id"/><item name="status_layout_network_text_id" type="id"/><item name="status_layout_server_text_id" type="id"/></file><file name="loading_1" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/mipmap/loading_1.png" qualifiers="" type="mipmap"/><file name="loading_2" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/mipmap/loading_2.png" qualifiers="" type="mipmap"/><file name="loading_3" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/mipmap/loading_3.png" qualifiers="" type="mipmap"/><file name="loading_7" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/mipmap/loading_7.png" qualifiers="" type="mipmap"/><file name="loading_6" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/mipmap/loading_6.png" qualifiers="" type="mipmap"/><file name="loading_4" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/mipmap/loading_4.png" qualifiers="" type="mipmap"/><file name="loading_5" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/mipmap/loading_5.png" qualifiers="" type="mipmap"/><file name="loading_8" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/mipmap/loading_8.png" qualifiers="" type="mipmap"/><file name="loading_9" path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/main/res/mipmap/loading_9.png" qualifiers="" type="mipmap"/></source><source path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/build/generated/res/rs/debug"/><source path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/debug/res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/statuslayout/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="StatusLayout"><attr format="reference" name="statusLayoutLoadingResLayout"/><attr format="reference" name="statusLayoutEmptyResLayout"/><attr format="reference" name="statusLayoutNetworkResLayout"/><attr format="reference" name="statusLayoutServerResLayout"/><attr format="reference" name="statusLayoutCustomResLayout"/></declare-styleable></configuration></mergedItems></merger>

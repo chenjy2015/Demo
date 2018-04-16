@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StatusLayout"><attr format="reference" name="statusLayoutLoadingResLayout"/><attr format="reference" name="statusLayoutEmptyResLayout"/><attr format="reference" name="statusLayoutNetworkResLayout"/><attr format="reference" name="statusLayoutServerResLayout"/><attr format="reference" name="statusLayoutCustomResLayout"/></declare-styleable>
+    <item name="status_layout_custom_container_id" type="id"/>
+    <item name="status_layout_empty_container_id" type="id"/>
+    <item name="status_layout_empty_text_id" type="id"/>
+    <item name="status_layout_loading_container_id" type="id"/>
+    <item name="status_layout_loading_text_id" type="id"/>
+    <item name="status_layout_network_container_id" type="id"/>
+    <item name="status_layout_network_text_id" type="id"/>
+    <item name="status_layout_server_container_id" type="id"/>
+    <item name="status_layout_server_text_id" type="id"/>
+    <item name="status_layout_custom_res_layout" type="layout"/>
+    <item name="status_layout_empty_res_layout" type="layout"/>
+    <item name="status_layout_loading_res_layout" type="layout"/>
+    <item name="status_layout_network_res_layout" type="layout"/>
+    <item name="status_layout_server_res_layout" type="layout"/>
+    <string name="app_name">StatusLayout</string>
+    <style name="StatusLayout">
+    </style>
+    <style name="StatusLayout.Default">
+
+        <item name="statusLayoutLoadingResLayout">@layout/layout_status_loading</item>
+        <item name="statusLayoutEmptyResLayout">@layout/layout_status_empty</item>
+        <item name="statusLayoutNetworkResLayout">@layout/layout_status_error_network</item>
+        <item name="statusLayoutServerResLayout">@layout/layout_status_error_server</item>
+        <item name="statusLayoutCustomResLayout">@layout/layout_status_custom</item>
+
+        <!--<item name="statusLayoutLoadingViewId">@id/status_layout_loading_container_id</item>-->
+        <!--<item name="statusLayoutEmptyViewId">@id/status_layout_empty_container_id</item>-->
+        <!--<item name="statusLayoutNetworkViewId">@id/status_layout_network_container_id</item>-->
+        <!--<item name="statusLayoutServerViewId">@id/status_layout_server_container_id</item>-->
+
+        <!--<item name="statusLayoutLoadingTextId">@id/status_layout_loading_text_id</item>-->
+        <!--<item name="statusLayoutEmptyTextId">@id/status_layout_empty_text_id</item>-->
+        <!--<item name="statusLayoutNetworkTextId">@id/status_layout_network_text_id</item>-->
+        <!--<item name="statusLayoutServerTextId">@id/status_layout_server_text_id</item>-->
+
+    </style>
+</resources>

@@ -1,0 +1,268 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar.Splash" parent="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_0</item>
+        <item name="colorPrimaryDark">@color/purple_0</item>
+        <item name="colorAccent">@color/purple_0</item>
+
+        <item name="android:windowBackground">@color/window_background</item>
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black_666</item>
+        <item name="android:textColorTertiary">@color/black_999</item>
+        <item name="android:textColorHint">@color/black_ccc</item>
+
+        <item name="android:buttonStyle">@style/Button</item>
+
+        <item name="colorControlNormal">@color/purple_1</item>
+
+        <item name="actionMenuTextColor">@color/purple_1</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Transparent" parent="AppTheme.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="kye_dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item> <!--Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item><!-- 是否漂现在activity上-->
+        <item name="android:windowIsTranslucent">true</item><!-- 是否半透明 -->
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:backgroundDimEnabled">true</item><!-- dim:模糊的 阴影效果 -->
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <!-- button -->
+    <style name="Button">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/background_button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:textAppearance">@style/Text.Button</item>
+    </style>
+
+    <style name="Button.ThinBorder">
+        <item name="android:background">@drawable/background_button_thin_border</item>
+        <item name="android:textAppearance">@style/Text.Button.ThinBorder</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Button.Borderless">
+        <item name="android:background">@drawable/background_button_borderless</item>
+        <item name="android:textAppearance">@style/Text.Button.Borderless</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Button.Ellipse"/>
+
+    <style name="Button.Ellipse.Purple">
+        <item name="background">@drawable/background_button_ellipse_purple</item>
+    </style>
+
+
+    <style name="Text"/>
+
+    <style name="Text.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/text_button</item>
+    </style>
+
+    <style name="Text.Button.ThinBorder">
+        <item name="android:textColor">@color/text_button_thin_border</item>
+    </style>
+
+    <style name="Text.Button.Borderless">
+        <item name="android:textColor">@color/text_button_borderless</item>
+    </style>
+    <!-- button -->
+
+    <style name="item_normal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="sDividerLineType">none</item>
+
+        <item name="sTopDividerLineMarginLeft">53dp</item>
+        <item name="sDividerLineColor">@color/divider</item>
+        <item name="sDividerLineHeight">@dimen/divider_height</item>
+
+        <item name="sLeftIconMarginLeft">15dp</item>
+
+        <item name="sLeftTextColor">@color/black_666</item>
+        <item name="sLeftTextSize">16sp</item>
+
+        <item name="sLeftViewMarginLeft">15dp</item>
+
+        <item name="sRightTextColor">@color/black_999</item>
+        <item name="sRightTextSize">14sp</item>
+
+        <item name="sRightIconRes">@drawable/icon_arrow</item>
+        <item name="sRightViewMarginRight">10dp</item>
+
+        <item name="sRightIconMarginRight">15dp</item>
+    </style>
+
+    <style name="item_normal_first" parent="item_normal">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="item_divider_top" parent="item_normal">
+        <item name="sDividerLineType">top</item>
+    </style>
+
+    <style name="item_divider_bottom" parent="item_normal">
+        <item name="sDividerLineType">bottom</item>
+    </style>
+
+    <style name="home_text">
+        <item name="android:textSize">@dimen/base_text_size_13</item>
+        <item name="android:textColor">@color/black_666</item>
+    </style>
+
+    <style name="slide_tablayout">
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">52dp</item>-->
+        <item name="android:paddingStart">40dp</item>
+        <item name="android:paddingEnd">40dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="tl_indicator_corner_radius">1.5dp</item>
+        <item name="tl_indicator_height">3dp</item>
+        <item name="tl_indicator_margin_top">4dp</item>
+        <item name="tl_indicator_margin_bottom">4dp</item>
+        <item name="tl_indicator_width">20dp</item>
+        <item name="tl_indicator_width_equal_title">true</item>
+        <item name="tl_tab_space_equal">true</item>
+        <item name="tl_textsize">14sp</item>
+    </style>
+
+    <style name="checkBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+
+    <style name="baseTextStyle_666">
+        <item name="android:textColor">@color/black_666</item>
+        <item name="android:textSize">@dimen/base_text_size_16</item>
+    </style>
+
+    <style name="baseTextStyle_333">
+        <item name="android:textColor">@color/black_333</item>
+        <item name="android:textSize">@dimen/base_text_size_16</item>
+    </style>
+
+    <!--————————————————————————————————————Toolbar————————————————————————————————————-->
+    <style name="toolbar_base" parent="AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+    <!--风格1：白-->
+    <style name="toolbar_light" parent="toolbar_base">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+
+    </style>
+    <!--风格1：灰-->
+    <style name="toolbar_gray" parent="toolbar_base">
+        <item name="android:background">@color/grey_F1F1F5</item>
+        <item name="android:textColorPrimary">@color/black_333</item>
+    </style>
+    <!--风格3：紫-->
+    <style name="toolbar_purple" parent="toolbar_base">
+        <item name="android:background">@color/purple_0</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <!--设置Toolbar的标题-->
+
+    <style name="title_base" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!--风格1：白-->
+    <style name="title_light" parent="title_base">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <!--风格1：灰-->
+    <style name="title_gray" parent="title_base">
+        <item name="android:textColor">@color/black_333</item>
+    </style>
+    <!--风格3：紫-->
+    <style name="title_purple" parent="title_base">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--设置Toolbar的标题-->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">17sp</item>
+    </style>
+    <!-- —————————————————————————————————————————————————————————————————————————————— -->
+
+    <!--客户介绍，我要介绍，默认item LinearLayout-->
+    <style name="customer_intro_item_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">15dp</item>
+    </style>
+
+    <!--客户介绍，我要介绍，默认item TextView-->
+    <style name="customer_intro_item_txt_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:textSize">@dimen/base_text_size_14</item>
+    </style>
+
+    <!--客户介绍，我要介绍，默认item EditText-->
+    <style name="customer_intro_item_edit_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">@dimen/base_text_size_14</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="customer_intro_line_style">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/color_d7</item>
+    </style>
+
+    <!-- checkbox-->
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/purple_0</item>
+        <item name="colorControlActivated">@color/gray</item>
+    </style>
+</resources>

@@ -5,12 +5,20 @@
       <module fileurl="file://$PROJECT_DIR$/MyCustomApplication.iml" filepath="$PROJECT_DIR$/MyCustomApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/automatic_space_edittext/automatic_space_edittext.iml" filepath="$PROJECT_DIR$/automatic_space_edittext/automatic_space_edittext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bannerandnotice/bannerandnotice.iml" filepath="$PROJECT_DIR$/bannerandnotice/bannerandnotice.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datetimepickerfrombottom/datetimepickerfrombottom.iml" filepath="$PROJECT_DIR$/datetimepickerfrombottom/datetimepickerfrombottom.iml" />
       <module fileurl="file://$PROJECT_DIR$/horizontal_display/horizontal_display.iml" filepath="$PROJECT_DIR$/horizontal_display/horizontal_display.iml" />
+      <module fileurl="file://$PROJECT_DIR$/marqueeView/marqueeView.iml" filepath="$PROJECT_DIR$/marqueeView/marqueeView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matisse/matisse.iml" filepath="$PROJECT_DIR$/matisse/matisse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" />
       <module fileurl="file://$PROJECT_DIR$/niftydialogbuilder/niftydialogbuilder.iml" filepath="$PROJECT_DIR$/niftydialogbuilder/niftydialogbuilder.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullrefreshlistview/pullrefreshlistview.iml" filepath="$PROJECT_DIR$/pullrefreshlistview/pullrefreshlistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/searchview/searchview.iml" filepath="$PROJECT_DIR$/searchview/searchview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statuslayout/statuslayout.iml" filepath="$PROJECT_DIR$/statuslayout/statuslayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/style/style.iml" filepath="$PROJECT_DIR$/style/style.iml" />
       <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webview/webview.iml" filepath="$PROJECT_DIR$/webview/webview.iml" />
     </modules>
   </component>
 </project>

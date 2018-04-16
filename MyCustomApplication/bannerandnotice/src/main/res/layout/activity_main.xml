@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.kye.nb.banner.Banner
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            app:image_scale_type="center_crop" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/test_notice_bg"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:id="@+id/iv_speaker"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_loudspeaker" />
+
+            <com.kye.nb.notice.MarqueeView
+                android:id="@+id/marqueeView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/iv_speaker"
+                app:mvSingleLine="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="跨越速运集团有限公司成立于2007年8月13日，注册资金1亿元，是一家主营“国内限时”服务的大型现代化综合速运企业。公司实行直营模式，全网统一管理，网络遍布全国32个省级行政区500多个城市，如今已有11架货运包机，1.5万台运输车辆，4万名员工和遍布全国的3000多家服务网点，日均货运处理能力达10万余票。跨越速运在行业中首度对客户提出“限时未达，全额退款”的承诺，并率先推出三大时效产品：当天达、次日达、隔日达，同时更为客户推出独具特色的贴心服务：24小时取派件。
+
+       跨越速运坚持“勇于跨越、追求卓越”的企业精神，肩负“为客户提供高效的品质服务、为员工谋取良好的福利保障、为社会创造持续的卓越价值”的企业使命，积极树立良好的企业口碑及品牌形象，并得到了客户的广泛认可。公司成立以来，先后荣获“国家级高新技术企业”、“国家AAAA级物流企业”、“深圳市高新技术企业”、“深圳市重点物流企业”、“中国物流行业30强优秀品牌”、“中国著名品牌”、“广东省物流协会副会长单位”等几十项荣誉资质。
+
+
+跨越理念
+企业色彩：
+紫色——紫色自古以来就是高贵而神秘的颜色，是帝王的钟爱之色，是高雅气质的象征。紫色，也寓意紫气东来，象征跨越的基业长青。紫色代表着成熟（管理层）、沉稳（操作中心）、专注（IT中心）、优雅（客服中心）、魅力（市场中心）、创意（广告中心）、细腻（财务中心）、严谨（法务中心），跨越的紫色，也是时效紫光的见证。
+
+企业精神：
+勇于跨越 追求卓越
+
+企业使命：
+为客户提供高效的品质服务
+为员工谋取良好的福利保障
+为社会创造持续的卓越价值
+
+核心价值观：
+正直诚信
+开拓创新
+合作共赢
+
+企业愿景：
+聚焦现代流通领域
+打造成具有国内引导力、
+国际竞争力的大型综合物流服务商跨越速运集团有限公司成立于2007年8月13日，注册资金1亿元，是一家主营“国内限时”服务的大型现代化综合速运企业。公司实行直营模式，全网统一管理，网络遍布全国32个省级行政区500多个城市，如今已有11架货运包机，1.5万台运输车辆，4万名员工和遍布全国的3000多家服务网点，日均货运处理能力达10万余票。跨越速运在行业中首度对客户提出“限时未达，全额退款”的承诺，并率先推出三大时效产品：当天达、次日达、隔日达，同时更为客户推出独具特色的贴心服务：24小时取派件。
+
+       跨越速运坚持“勇于跨越、追求卓越”的企业精神，肩负“为客户提供高效的品质服务、为员工谋取良好的福利保障、为社会创造持续的卓越价值”的企业使命，积极树立良好的企业口碑及品牌形象，并得到了客户的广泛认可。公司成立以来，先后荣获“国家级高新技术企业”、“国家AAAA级物流企业”、“深圳市高新技术企业”、“深圳市重点物流企业”、“中国物流行业30强优秀品牌”、“中国著名品牌”、“广东省物流协会副会长单位”等几十项荣誉资质。
+
+
+跨越理念
+企业色彩：
+紫色——紫色自古以来就是高贵而神秘的颜色，是帝王的钟爱之色，是高雅气质的象征。紫色，也寓意紫气东来，象征跨越的基业长青。紫色代表着成熟（管理层）、沉稳（操作中心）、专注（IT中心）、优雅（客服中心）、魅力（市场中心）、创意（广告中心）、细腻（财务中心）、严谨（法务中心），跨越的紫色，也是时效紫光的见证。
+
+企业精神：
+勇于跨越 追求卓越
+
+企业使命：
+为客户提供高效的品质服务
+为员工谋取良好的福利保障
+为社会创造持续的卓越价值
+
+核心价值观：
+正直诚信
+开拓创新
+合作共赢
+
+企业愿景：
+聚焦现代流通领域
+打造成具有国内引导力、
+国际竞争力的大型综合物流服务商" />
+
+    </LinearLayout>
+</ScrollView>

@@ -10,12 +10,20 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/automatic_space_edittext" />
+            <option value="$PROJECT_DIR$/bannerandnotice" />
             <option value="$PROJECT_DIR$/base" />
+            <option value="$PROJECT_DIR$/datetimepickerfrombottom" />
             <option value="$PROJECT_DIR$/horizontal_display" />
+            <option value="$PROJECT_DIR$/marqueeView" />
+            <option value="$PROJECT_DIR$/matisse" />
+            <option value="$PROJECT_DIR$/model" />
             <option value="$PROJECT_DIR$/niftydialogbuilder" />
             <option value="$PROJECT_DIR$/pullrefreshlistview" />
             <option value="$PROJECT_DIR$/searchview" />
+            <option value="$PROJECT_DIR$/statuslayout" />
+            <option value="$PROJECT_DIR$/style" />
             <option value="$PROJECT_DIR$/volley" />
+            <option value="$PROJECT_DIR$/webview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -1,0 +1,89 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        buildConfigField('String', 'ROUTER', "\"${ROUTER}\"")
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "String", "HOST", DEBUG_RES_URL
+            buildConfigField "String", "HOST_RES", DEBUG_RES_URL_RES
+            minifyEnabled false
+            debuggable true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        preview {
+            matchingFallbacks = 'debug'
+            buildConfigField "String", "HOST", RELEASE_RES_URL
+            buildConfigField "String", "HOST_RES", RELEASE_RES_URL_RES
+            minifyEnabled true
+            debuggable true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            buildConfigField "String", "HOST", RELEASE_RES_URL
+            buildConfigField "String", "HOST_RES", RELEASE_RES_URL_RES
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        dev {
+            matchingFallbacks = 'debug'
+            buildConfigField "String", "HOST", DEBUG_RES_URL
+            buildConfigField "String", "HOST_RES", DEBUG_RES_URL_RES
+            minifyEnabled true
+            debuggable true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    api project(':base')
+    // Room
+    api "android.arch.persistence.room:runtime:1.0.0"
+    annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
+    // RxJava support for Room
+    api "android.arch.persistence.room:rxjava2:1.0.0"
+    // Test helpers for Room
+    testApi "android.arch.persistence.room:testing:1.0.0"
+
+    debugImplementation 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    debugImplementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+
+    previewImplementation 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    previewImplementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+
+    devImplementation 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    devImplementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+
+    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+
+    api 'com.github.bumptech.glide:okhttp3-integration:4.4.0'
+}

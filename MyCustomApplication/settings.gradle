@@ -1,1 +1,1 @@
-include ':app', ':base', ':searchview', ':horizontal_display', ':volley', ':pullrefreshlistview', ':niftydialogbuilder', ':automatic_space_edittext'
+include ':app', ':base', ':searchview', ':horizontal_display', ':volley', ':pullrefreshlistview', ':niftydialogbuilder', ':automatic_space_edittext', ':model', ':webview', ':style', ':statuslayout', ':matisse', ':marqueeView', ':bannerandnotice', ':datetimepickerfrombottom'

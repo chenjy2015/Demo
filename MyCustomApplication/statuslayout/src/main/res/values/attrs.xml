@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="StatusLayout">
+
+        <attr name="statusLayoutLoadingResLayout" format="reference" />
+        <attr name="statusLayoutEmptyResLayout" format="reference" />
+        <attr name="statusLayoutNetworkResLayout" format="reference" />
+        <attr name="statusLayoutServerResLayout" format="reference" />
+        <attr name="statusLayoutCustomResLayout" format="reference" />
+
+        <!--<attr name="statusLayoutLoadingViewId" format="reference" />-->
+        <!--<attr name="statusLayoutEmptyViewId" format="reference" />-->
+        <!--<attr name="statusLayoutNetworkViewId" format="reference" />-->
+        <!--<attr name="statusLayoutServerViewId" format="reference" />-->
+
+        <!--<attr name="statusLayoutLoadingTextId" format="reference" />-->
+        <!--<attr name="statusLayoutEmptyTextId" format="reference" />-->
+        <!--<attr name="statusLayoutNetworkTextId" format="reference" />-->
+        <!--<attr name="statusLayoutServerTextId" format="reference" />-->
+
+    </declare-styleable>
+
+</resources>
