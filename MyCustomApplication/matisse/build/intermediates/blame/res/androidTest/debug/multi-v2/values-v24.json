@@ -1,6 +1,38 @@
 {
     "logs": [
         {
+            "outputFile": "/Users/chenjiayou/github/Demo/MyCustomApplication/matisse/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/Users/chenjiayou/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/5585c0dbf38c11b7e0c898f13c995f9a/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
+                    }
+                },
+                {
+                    "source": "/Users/chenjiayou/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/571df4935f8c95a6128303126cf9f811/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "347,413,474,540",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "408,469,535,602"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/Users/chenjiayou/git/KYESHOP_EXPRESS/Kye-6.10/android/Kye_Android/matisse/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {

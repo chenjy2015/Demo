@@ -48,15 +48,44 @@ android {
 //    }
 }
 
+ext.supportLibVersion = '27.0.2'
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:26.1.0'
-    //blankj工具类
-    implementation 'com.blankj:utilcode:1.1.4'
-    implementation 'com.google.code.gson:gson:+'
+    implementation "com.android.support:appcompat-v7:${supportLibVersion}"
 
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    api 'io.reactivex.rxjava2:rxjava:2.1.7'
+    api 'org.greenrobot:eventbus:3.1.1'
+    api 'com.f2prateek.rx.preferences2:rx-preferences:2.0.0-RC3'
+    api 'com.github.pwittchen:reactivenetwork-rx2:0.12.2'
+
+    api 'com.github.fondesa:recycler-view-divider:2.0.0'
+    api 'com.google.code.gson:gson:2.8.2'
+    api 'com.github.ikidou:TypeBuilder:1.0'
+
+    debugApi 'com.facebook.stetho:stetho:1.5.0'
+
+    debugApi 'com.github.markzhai:blockcanary-android:1.5.0'
+
+    debugApi 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+
+    // Test helpers for Room
+    testApi "android.arch.persistence.room:testing:1.0.0"
+
+    // glide
+    api 'com.github.bumptech.glide:glide:4.4.0'
+    api 'com.github.bumptech.glide:annotations:4.4.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.4.0'
+
+    //logger
+    debugImplementation 'com.orhanobut:logger:2.1.1'
+
+    //blankj工具类
+    implementation 'com.blankj:utilcode:1.1.4'
+    implementation 'com.google.code.gson:gson:+'
 }

@@ -6,17 +6,18 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Handler;
 import android.preference.PreferenceManager;
+import android.support.multidex.MultiDex;
 import android.support.v7.app.AppCompatDelegate;
 
 import com.example.chenjiayou.mycustomapplication.utils.ActivityInitUtil;
 import com.example.chenjiayou.mycustomapplication.utils.RefreshLoadViewUtils;
 import com.example.horizontal_display.init.StaticInit;
+import com.f2prateek.rx.preferences2.RxSharedPreferences;
 import com.kye.model.ApiService;
 import com.kye.model.SharedPreferencesManager;
 import com.kye.model.base.RetrofitManager;
 
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Logger;
 
 import cn.jpush.android.api.JPushInterface;
 import io.reactivex.android.schedulers.AndroidSchedulers;

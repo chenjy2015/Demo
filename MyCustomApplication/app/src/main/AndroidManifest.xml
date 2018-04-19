@@ -11,8 +11,6 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -21,12 +19,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PullAndRefreshListActivity"
+            android:label="下拉刷新"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RecyclerViewGridActivity"
+            android:label="RecylclerView实现GridView效果"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
 
-        <!-- <activity -->
-        <!-- android:name="com.example.horizontal_display.HorizontalDisplayPhotoListActivity" -->
-        <!-- android:screenOrientation="portrait" /> -->
-        <activity android:name=".PullAndRefreshListActivity" />
-        <activity android:name=".RecyclerViewGridActivity"></activity>
     </application>
 
 </manifest>

@@ -28,6 +28,11 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url "http://172.20.9.21:8807/repository/maven2-release/" }
+        maven { url "https://dl.bintray.com/thelasterstar/maven/" }
+        maven { url "http://dl.bintray.com/piasy/maven" }
+        maven {url  "http://dl.bintray.com/piasy/maven"}
     }
 }
 

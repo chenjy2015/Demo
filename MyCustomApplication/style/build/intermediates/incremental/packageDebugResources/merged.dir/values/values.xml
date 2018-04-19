@@ -395,7 +395,7 @@
     <dimen name="statusbar_view_height">0dp</dimen>
     <string name="app_name">style</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/purple_0</item>
         <item name="colorPrimaryDark">@color/purple_0</item>
         <item name="colorAccent">@color/purple_0</item>
@@ -547,19 +547,19 @@
         <item name="android:layout_marginTop">10dp</item>
     </style>
     <style name="kye_dialog" parent="Theme.AppCompat.Dialog">
-        <item name="android:windowFrame">@null</item> 
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFrame">@null</item> <!--Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">true</item><!-- 是否漂现在activity上-->
+        <item name="android:windowIsTranslucent">true</item><!-- 是否半透明 -->
         <item name="windowNoTitle">true</item>
 
         <item name="android:fitsSystemWindows">true</item>
         <item name="windowActionBar">false</item>
-        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimEnabled">true</item><!-- dim:模糊的 阴影效果 -->
         <item name="android:windowBackground">@color/transparent</item>
     </style>
     <style name="slide_tablayout">
-        
-        
+        <!--<item name="android:layout_width">match_parent</item>-->
+        <!--<item name="android:layout_height">52dp</item>-->
         <item name="android:paddingStart">40dp</item>
         <item name="android:paddingEnd">40dp</item>
         <item name="android:paddingTop">8dp</item>
